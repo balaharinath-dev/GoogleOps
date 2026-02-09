@@ -1,0 +1,58 @@
+# ==============================
+# General
+# ==============================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Python / FastAPI
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Type checkers
+.mypy_cache/
+.pyre/
+
+# IDE
+.vscode/
+.idea/
+
+# ==============================
+# Node / React / Vite
+# ==============================
+node_modules/
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+
+# ==============================
+# Misc
+# ==============================
+.cache/
